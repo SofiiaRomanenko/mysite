@@ -1,0 +1,18 @@
+.zebra {
+  list-style: none;
+  border-left: 10px solid #956DBA;
+  padding: 0;
+  font-family: "playfair display";
+	
+}
+.zebra li {padding: 10px;}
+.zebra li:nth-child(odd) {background: #fff;}
+.zebra li:nth-child(even) {background: white;}
+.zebra a {
+	text-decoration: none;
+	color: #956DBA;
+}
+.zebra a:hover {
+	text-decoration: none;
+	color: #58317C;
+}

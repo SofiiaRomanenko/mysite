@@ -1,0 +1,22 @@
+.word img {
+	width: 100%;
+	transform: scale(0.5);
+	transition-duration: 0.5s;
+}
+.word img:hover {
+	width: 100%;
+	transform: scale(1);
+}
+figure {
+	width: 30%;
+	float: left;
+	margin: 0;
+}
+figcaption {
+	text-align: center;
+	color: #956DBA;
+}
+.word {
+	margin: 0 0 0 12%;
+	padding: 60% 0 40% 0;
+}

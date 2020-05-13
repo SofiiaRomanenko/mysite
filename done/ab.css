@@ -1,0 +1,26 @@
+.me img {
+	width: 30%;
+	border-radius: 50%;
+	float: left;
+	margin: 10% 0 10% 10%;
+}
+.me p {
+	font-family: 'playfair display';
+	font-size: 35px;
+	float: right;
+	padding: 5%;
+	padding-bottom: 0;
+	margin: 15% 5% 0 0;
+}
+.hello p{
+	font-family: 'Roboto Condensed';
+	font-size: 0.9em;
+	float: right;
+	padding: 5%;
+	padding-top: 0; 
+	margin: 0 5% 15% 15%;
+}
+#about {
+	width: 100%;
+	height: 12%;
+}

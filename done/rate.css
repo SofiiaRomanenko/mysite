@@ -1,0 +1,46 @@
+table {
+	font-family: 'playfair display';
+	background: black;
+  border: 1px solid black;
+  border-collapse: separate;
+border-spacing: 5px;
+	border-radius: 20px;
+  margin: 15% 0;
+  padding: 0;
+  table-layout: fixed;
+  width: 90%;
+	
+}
+table tr {
+  border: 1px solid #E9E3ED;
+  padding: 0;
+	color: white;
+}
+table th {
+	padding: 0;
+	text-align: center;
+	font-family: 'playfair display';
+}
+table td {
+	padding: 0;
+	text-align: center;
+	font-family: 'Roboto Condensed';
+}
+@media screen and (max—width: 600px) {
+  table thead {
+    display: none;
+  }
+  table tr {
+    border—bottom: 1px solid;
+    display: block;
+  }
+  table td {
+    border—bottom: 1px solid;
+    display: block;
+    text—align: right;
+  }
+  table td:before {
+    content: attr(aria—label);
+    float: left;
+  }
+}

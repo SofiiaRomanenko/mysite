@@ -1,0 +1,14 @@
+a.mail{
+	text-decoration: none;
+	font-family: 'playfair display';
+	font-size: 1.3em;
+	color: var(--text-color);
+}
+a.mail:hover {
+	color: #956DBA;
+}
+div.ma {
+	width: 100%;
+	background: var(--panel-bg-color);
+	margin-top: 5%;
+}
